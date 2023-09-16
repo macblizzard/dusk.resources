@@ -18,9 +18,9 @@ secs=0
 while true; do
 
     $SETSTATUS 0 "$(~/.local/bin/statusbar/clock)" &
-    $SETSTATUS 1 "$(~/.local/bin/statusbar/weather)” &
-    $SETSTATUS 2 "$(~/.local/bin/statusbar/mem)” &
-    $SETSTATUS 3 "$(~/.local/bin/statusbar/cpu)” &
+    $SETSTATUS 1 "$(~/.local/bin/statusbar/weather)" &
+    $SETSTATUS 2 "$(~/.local/bin/statusbar/mem)" &
+    $SETSTATUS 3 "$(~/.local/bin/statusbar/cpu)" &
 
 
 #    if [ $((secs % 60)) = 0 ]; then
